@@ -1,3 +1,10 @@
-42 / 6
+denominator = 0
+numerator = 42
 
-42 / 0
+if denominator.zero?
+  puts "Error: Division by zero is not allowed."
+else
+  result = numerator / denominator
+  puts "Result: #{result}"
+end
+
